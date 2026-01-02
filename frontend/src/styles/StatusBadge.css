@@ -1,0 +1,42 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-healthy .status-indicator {
+  background-color: #22c55e;
+}
+
+.status-watch .status-indicator {
+  background-color: #f59e0b;
+}
+
+.status-needs-review .status-indicator {
+  background-color: #ef4444;
+}
+
+.status-unknown .status-indicator {
+  background-color: #6b7280;
+}
+
+.status-label {
+  text-transform: capitalize;
+}
+
+.status-description {
+  cursor: help;
+  font-size: 0.9rem;
+}
+

@@ -1,0 +1,109 @@
+.user-detail {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.user-detail-header {
+  margin-bottom: 2rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.user-info h2 {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.user-role {
+  color: #6b7280;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.engagement-notice {
+  background-color: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+.engagement-notice p {
+  color: #92400e;
+  line-height: 1.6;
+}
+
+.context-info {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-family: monospace;
+}
+
+.user-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.user-trends-section,
+.user-activity-breakdown,
+.user-context-section {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-trends-section h3,
+.user-activity-breakdown h3,
+.user-context-section h3 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.context-display {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.context-display pre {
+  font-size: 0.85rem;
+  color: #374151;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.context-note {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.no-context {
+  color: #6b7280;
+  font-style: italic;
+}
+

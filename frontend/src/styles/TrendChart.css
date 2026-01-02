@@ -1,0 +1,14 @@
+.trend-chart {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+
+.chart-empty {
+  text-align: center;
+  padding: 3rem;
+  color: #6b7280;
+}
+
